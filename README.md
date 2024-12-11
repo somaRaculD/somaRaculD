@@ -1,76 +1,52 @@
-<head>
-  <style>
-    @keyframes showWelcome {
-      from {
-        opacity: 0;
-        transform: translateY(16px);
-      }
-      to {
-        opacity: 1;
-      }
-  }
-    .welcome {
-      margin-bottom: 24px;
-      animation: 1s showWelcome ease-in-out;
-background: linear-gradient(to right, #f26b13, #f11111);
- padding: 16px 24px; 
- border-radius: 8px; box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3); color:white;
-    }
-    .icon {
-      padding: 2px;
-      background: #117baa;
-      width: 30px;
-      height: 30px;
-      padding: 12px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 4px 0;
-      border-radius: 30px;
-      background: linear-gradient(to right, #f26b13, #f11111);
-      font-weight: 700;
-      color: white;
-      cursor: pointer;
-      position: relative;
-      overflow: hidden;
-      box-shadow: -2px 3px 5px #ccc;
-    }
-    .icon:hover > .glass{
-      delay: 1s;
-      height: 100%;
-      width: 100%;
-      display: block;
-      position: absolute;
-      bottom:0;
-      z-index: 2;
-    }
-    .glass {
-      display: none;
-      float: none;
-      background: rgba(0,0,0,.2);
-      animation: showWelcome 500ms ease-in-out;
-      border-radius: 30px;
-    }
-  </style>
- </head>
-<div>
+# BEM VINDO
+<hr/>
 
-  <h1 class="welcome">Bem Vindo</h1>
-  <div style='font-size: 15px; margin-bottom: 12px'>Sou um jovem principiante na programação...continuando a nadar nesse mar de criação</div>
+``Desenvolvedor``
 
-<div id="embed-iframe">
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2KSWrd22LGc0Hmqs2Z5i7z?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</div>
+Chamo-me ___Matheus Dluca___.
+Aparentemente sou considerado [Jovem] ainda e, portanto, devo ter energia para fazer algo que preste.
 
-<div class="icon">JS <div class="glass"></div>
-</div>
+> Hoje em dia trabalho como front-end JS,
+> ___mas___, no local onde estou,
+> faço diversos "projetinhos" back-end, além de auxilar os
+> desenvolvedores em geral da minha equipe.
 
-<div class="icon">JAVA <div class="glass"></div></div>
+Sou programador por gostar de desafios e de aprender constantemente, mas confesso que as vezes cansa ficar na _stack_ de JS por atualizar muito rápido e voltar a aprender o que já sei fazer.
 
-<div class="icon">PHP <div class="glass"></div></div>
+![](https://cdn-icons-png.flaticon.com/128/743/743280.png)
 
-<div class="icon">GO <div class="glass"></div></div>
-</div>
+<hr/>
+
+## Voltando ao assunto (eu)
+<hr/>
+
+Tenho conhecimento em outras linguagens!
+Como disse anteriormente, nesses projetos back-ends fiz a maioria em [GO] e vi nela uma performance absurda em relação ao [JAVA] que outra stack que sei um pouco.
+
+Em [GO] fiz cruds básicos e mexi com socket, e nele que "fucei" a S3 (bucket - não me recordo o nome do serviço em si)  para armazenar algumas imagens e documentos do projeto.
+
+Em relação a projetos pessoais tratei de aprender [Nest.js] e [node] para fazer um site de blogs onde compartilhamos testemunhos, estudos biblícos e mais. E outro para minha esposa, onde ela pode divulgar os trabalhos dela (recomendo passar para ver.) [__Meraki__]
+
+!!! Hoje está indisponivel pois fiquei sem dinheiro para manter o servidor... triste
+
+ - Docker
+ - Nginx
+ - Redis
+ - Docker Compose
+ - Expo
+ - Etc
+  
+Acho meio dificil enumerar tudo que mexemos, até porque atuo profissionalmente mais no front js onde pro básico existe mil bibliotecas pra mais.
+
+<hr />
+
+## Album top
+<hr />
+
+[![Spotify](https://open.spotify.com/intl-pt/album/2KSWrd22LGc0Hmqs2Z5i7z?si=b9dT1W6YQjq4A0Qsqhw1DA)](https://open.spotify.com/intl-pt/album/2KSWrd22LGc0Hmqs2Z5i7z?si=b9dT1W6YQjq4A0Qsqhw1DA)
+
+[__Meraki__]: https://www.instagram.com/amomerakiatelie/profilecard/?igsh=MWoyMGR4c3l2cjN5aw%3D%3D
+[GO]: https://google.com.br
+[Desenvolvedor]: https://google.com.br
+[Jovem]: https://google.com.br
+[``Matheus Dluca``]: https://www.instagram.com/amomerakiatelie/profilecard/?igsh=MWoyMGR4c3l2cjN5aw%3D%3D
